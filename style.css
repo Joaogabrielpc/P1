@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(78,229,186,0.8);
+}
+
+#milhas {
+    text-align: right;
+    margin-right: 60%;
+}
+
+#milhasimg {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    margin-left: auto;
+    font-size: xx-large;
+    background-image: linear-gradient(to bottom, #0E6600,
+    #1BA605);
+    border: solid 1px black;
+}   
+
+
+h2{
+    text-align: center;
+    margin-left: auto;
+    font-size: xx-large;
+    background-image: linear-gradient(to bottom, #0E6600,
+    #1BA605);
+    border: solid 1px black;
+
+}
+
+p{
+    margin-left: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    text-align: center;
+    margin-left: auto;
+    font-size: xx-large;
+    background-image: linear-gradient(to bottom, #0E6600,
+    #1BA605);
+    border: solid 1px black;
+
+}
+div{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #0E6600,
+    #1BA605);
+    background-image: url(D_NQ_NP_627977-MLB27437832822_052018-O.jpg);
+    background-position: center,center;
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-attachment: fixed;
+}
+
+ol{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h6{
+    text-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(to bottom, #0E6600,
+    #1BA605);
+    border: solid 1px black;
+}
+   
