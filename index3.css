@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+*{
+    min-height: 25%;
+}
+body{
+    background-color: rgba(78,229,186,0.8);
+}
+h1{
+    background-color:#596eaa ;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color:#ffffff ;
+    border: 3px solid rgb(237, 57, 57);
+    border-radius: 10px;
+}
+p{
+    font-size: large;
+}
+.imagem{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color:BLACK;
+
+    border:  2px solid red;
+    font-size: x-large;
+
+
+}
