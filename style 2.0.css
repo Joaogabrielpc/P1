@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh ;
+    grid-gap: 10px;
+}
+header{
+    background-color: #7ECC;
+    grid-column-start:1;
+    grid-column-end:17;
+    grid-row-start:1;
+    grid-row-end:29;
+    color: black;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: rgba(78, 229, 186, 0.8);
+}
+
+main{
+    background-color: #7ECC;
+    grid-column-start:3;
+    grid-column-end: 16;
+    grid-row-start:30;
+    grid-row-end:70;
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: #7ECC;
+    grid-column-start:3;
+    grid-column-end: 16;
+    grid-row-start:70;
+    grid-row-end:90;
+    margin-left:57px;
+    margin-right:57px;
+}
+#a0{
+    background-color: #7ECC;
+    grid-column-start:3;
+    grid-column-end: 16;
+    grid-row-start:90;
+    grid-row-end:130;
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+    
+    
+}
+#a1{
+    background-color: #7ECC;
+    grid-column-start:1;
+    grid-column-end: 16;
+    grid-row-start:130;
+    grid-row-end:150;  
+    border-radius: 15px;
+    border: 2px solid white;
+    margin-right: 140px;
+    margin-left: 210px;
+    font-size: large;
+}
+
+#a2{
+    background-color: #7ECC;
+    grid-column-start:3;
+    grid-column-end: 16;
+    grid-row-start:150;
+    grid-row-end:200;
+    display: flex;
+    justify-content: center;
+
+}
+#a3{
+    background-color: #7ECC;
+    grid-column-start:3;
+    grid-column-end: 16;
+    grid-row-start:200;
+    grid-row-end:220;
+    margin-left:40px;
+    margin-right:130px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#a4{
+    background-color: #7ECC;
+    grid-column-start:3;
+    grid-column-end: 16;
+    grid-row-start:220;
+    grid-row-end:270;
+    display: flex;
+    justify-content: center;
+    
+}
+#a5{
+    background-color: #7ECC;
+    grid-column-start:3;
+    grid-column-end: 16;
+    grid-row-start:270;
+    grid-row-end:280;
+    margin-left:45px;
+    margin-right:130px;
+    border: 2px solid white;
+    border-radius: 15px;
+    bottom:100px;
+}
+#jeb{
+    border-radius: 15px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 90px;
+    
+}
+#sec{
+    background-color:#7ECC;
+    color: black;
+    border:2px solid white;
+    border-radius: 15px;
+    font-size: large;
+    margin-right: 140px;
+    margin-bottom:50px;
+
+}
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover{
+    font-weight: bold;
+}
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+}
+.nav{
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.4s;
+    display: none;
+}
+.menu-bg,#menu-bar{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.menu-bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle,white);
+    border-radius: 5%;
+    transition: 0.4s ease;
+    
+    
+}
+#menu-bar{
+    z-index: 2;
+}
+.change-bg{
+    width: 250px;
+    height: 540px;
+    transform: translate(-60%,-30%);
+}
+.change-bar{
+    background-color:white ;
+}
+.change #bar1{
+    transform: translateY(4px)rotateZ(-45deg);
+}
+.change #bar3{
+    transform: translateY(-6px)rotate(45deg);
+}
+.change #bar2{
+    opacity: 0;
+}
+.change{
+    display: block;
+}
+#img1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#img2
+{
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#img3{
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-right: 90px;
+}
+#img4{
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-right: 90px;
+    
+}
+footer{
+    text-align: center;
+}
