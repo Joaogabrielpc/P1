@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(78,229,186,0.8);
+    background-color: rgba(78, 229, 186, 0.8);
 }
 
 #milhas {
@@ -15,8 +15,7 @@ h1 {
     text-align: center;
     margin-left: auto;
     font-size: xx-large;
-    background-image: linear-gradient(to bottom, #0E6600,
-    #1BA605);
+    background-color: white;
     border: solid 1px black;
 }   
 
@@ -25,8 +24,7 @@ h2{
     text-align: center;
     margin-left: auto;
     font-size: xx-large;
-    background-image: linear-gradient(to bottom, #0E6600,
-    #1BA605);
+    background-color: white;
     border: solid 1px black;
 
 }
@@ -41,21 +39,11 @@ h3{
     text-align: center;
     margin-left: auto;
     font-size: xx-large;
-    background-image: linear-gradient(to bottom, #0E6600,
-    #1BA605);
+    background-color: white;
     border: solid 1px black;
 
 }
-div{
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #0E6600,
-    #1BA605);
-    background-image: url(D_NQ_NP_627977-MLB27437832822_052018-O.jpg);
-    background-position: center,center;
-    background-repeat: no-repeat;
-    background-size: 100%,100%;
-    background-attachment: fixed;
-}
+
 
 ol{
     font-size: larger;
@@ -65,8 +53,17 @@ ol{
 h6{
     text-align: center;
     font-size: x-large;
-    background-image: linear-gradient(to bottom, #0E6600,
-    #1BA605);
+    background-color: white;
     border: solid 1px black;
 }
    
+a{
+    color: white;
+    text-decoration: none;
+    background-color:BLACK;
+
+    border:  2px solid red;
+    font-size: x-large;
+
+
+}
