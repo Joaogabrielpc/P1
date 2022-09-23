@@ -67,3 +67,7 @@ a{
 
 
 }
+#img123{
+    display: flex;
+    justify-content: center;
+}
