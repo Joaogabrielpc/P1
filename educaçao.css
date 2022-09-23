@@ -10,7 +10,7 @@ h1{
     background-color: rgb(114, 114, 114);
 }
 img{
-    margin-left: 130px;
+
     border-radius: 15px 15px 15px;
     background-color: black;
     border: 3px solid black;
@@ -32,5 +32,29 @@ a{
     border:  2px solid red;
     font-size: x-large;
     color: white;
+
+}
+#img1{
+    display: flex;
+    justify-content: center;
+}
+#img2{
+    display: flex;
+    justify-content: center;
+}
+#img3{
+    display: flex;
+    justify-content: center;
+}
+#img4{
+    display: flex;
+    justify-content: center;
+}
+#img5{
+    display: flex;
+    justify-content: center;
+}#img6{
+    display: flex;
+    justify-content: center;
 
 }
