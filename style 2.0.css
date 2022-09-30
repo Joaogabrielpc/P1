@@ -1,11 +1,12 @@
 @charset "utf-8";
-
+/* ONDE SE LOCALIZA OS TEXTOS */
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh ;
     grid-gap: 10px;
 }
+/* O CONTEUDO DO SITE  */
 header{
     background-color: #7ECC;
     grid-column-start:1;
@@ -17,6 +18,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+/* FUNDO DA TELA */
 body{
     background-color: rgba(78, 229, 186, 0.8);
 }
@@ -126,6 +128,7 @@ section{
     margin-bottom:50px;
 
 }
+/* CONFIGURAÇÕEAS DO MENU */
 #menu{
     width: 35px;
     height: 30px;
@@ -223,6 +226,7 @@ section{
     margin-right: 90px;
     
 }
+/*  */
 footer{
     text-align: center;
 }
