@@ -3,13 +3,13 @@
 *{
     min-height: 25%;
 }
-body{
+body{ /*Fundo da tela*/
     background-color: rgba(78,229,186,0.8);
 }
 h1{
     background-color:#596eaa ;
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0); /*Bordas*/
+    border-radius: 10px;/*Borda Arredondada*/
     text-align: center;
 }
 h2{
@@ -19,20 +19,20 @@ h2{
     border-radius: 10px;
 }
 p{
-    font-size: large;
+    font-size: large; /*Tamanho da Fonte*/
 }
-.imagem{
+.imagem{ /* personalização das imagens */
     display: flex;
     align-items: center;
    justify-content: center;
    
 }
-a{
-    color: white;
-    text-decoration: none;
-    background-color:BLACK;
 
-    border:  2px solid red;
+a{
+    color: white; /* personalização dos links */
+    text-decoration: none;
+    background-color:black;
+    border: 2px solid red;
     font-size: x-large;
 
 }
